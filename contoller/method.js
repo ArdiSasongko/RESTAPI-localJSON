@@ -35,4 +35,4 @@ const delteData = (req, res) =>{
     people.splice(findId,1)
     res.status(200).send("Data Berhasil dihapus")
 }
-module.exports = { getdata, addData, updateData}
+module.exports = { getdata, addData, updateData, delteData}
